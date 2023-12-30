@@ -2,14 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",//Thư mục gốc, nơi mà ts sẽ look
+    "outDir": "./dist/out-tsc", //Nơi chứa các file js sẽ được compile
+    "forceConsistentCasingInFileNames": true,//báo lỗi khi có 2 file có cùng tên nhưng khác chữ hoa/chữ thường
+    "strict": false,//bật 1 vài options có liên quan giúp kiểm tra code nghiêm ngặt hơn(vd:noImplicitAny, strictNullChecks, noImplicitReturns ... )
+    "noImplicitOverride": true,//cảnh báo lớp lớp con override class cha mà không có từ khoá Override hoặc không có trong Class cha
+    "noPropertyAccessFromIndexSignature": false,//Báo lỗi khi dùng obj.property với những property không được định nghĩa sẵn trong obj(phải dùng obj[property])
+    "noImplicitReturns": true,//Báo Lỗi/cảnh báo khi function không chắc return về 1 value trong mọi trường hợp
+    "noFallthroughCasesInSwitch": true, //Cảnh báo khi 1 case trong switch không có break, return hay 1 cách nào đó để break khỏi case
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,

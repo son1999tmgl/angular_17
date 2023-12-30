@@ -1,12 +1,12 @@
-function test(test:string):string{
-    switch(test){
+function test(test) {
+    switch (test) {
         case '0':
         case '1':
             console.log(1);
-            break
+            break;
         case '2':
             console.log(2);
-            break
+            break;
     }
-    return ''
+    return '';
 }
