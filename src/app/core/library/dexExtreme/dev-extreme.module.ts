@@ -1,0 +1,78 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {
+  DxFormModule,
+  DxNumberBoxModule,
+  DxDataGridModule,
+  DxSelectBoxModule,
+  DxTreeListModule,
+  DxCheckBoxModule,
+  DxButtonModule,
+  DxTextAreaModule,
+  DxPopupModule,
+  DxLookupModule,
+  DxRadioGroupModule,
+  DxLoadPanelModule,
+  DxValidationGroupModule,
+  DxLoadIndicatorModule,
+  DxValidatorModule,
+  DxValidationSummaryModule,
+  DxTextBoxModule,
+  DxTabPanelModule,
+  DxFileUploaderModule,
+  DxDateBoxModule,
+  DxTabsModule,
+  DxMenuModule,
+  DxAutocompleteModule,
+  DxListModule,
+  DxContextMenuModule,
+  DxProgressBarModule,
+  DxPivotGridModule,
+  DxChartModule,
+  DxPieChartModule,
+  DxDropDownBoxModule,
+  DxTreeViewModule,
+} from 'devextreme-angular';
+
+
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+  ],
+  exports: [
+    DxButtonModule,
+    DxFormModule,
+    DxNumberBoxModule,
+    DxDataGridModule,
+    DxSelectBoxModule,
+    DxTreeListModule,
+    DxCheckBoxModule,
+    DxTextAreaModule,
+    DxPopupModule,
+    DxLookupModule,
+    DxRadioGroupModule,
+    DxLoadPanelModule,
+    DxValidationGroupModule,
+    DxLoadIndicatorModule,
+    DxValidatorModule,
+    DxValidationSummaryModule,
+    DxTextBoxModule,
+    DxTabPanelModule,
+    DxFileUploaderModule,
+    DxDateBoxModule,
+    DxTabsModule,
+    DxMenuModule,
+    DxAutocompleteModule,
+    DxListModule,
+    DxContextMenuModule,
+    DxProgressBarModule,
+    DxPivotGridModule,
+    DxChartModule,
+    DxPieChartModule,
+    DxDropDownBoxModule,
+    DxTreeViewModule
+  ]
+})
+export class DevExtremeModule { }
